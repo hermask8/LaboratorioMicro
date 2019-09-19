@@ -1,0 +1,16 @@
+1.	Cuando se genera el archivo obj a partir del archivo “.asm” ¿Qué información nos muestra en consola y qué significa?
+Respuesta: 
+Assembling file: El archivo .asm con el que se creo el obj.
+Error Messages:Errores de sintaxis del código leído.
+Warning Messages: Advertencias de lo que podría causar el codigo al ejecutarlo
+Passes: Es un paso a través de la fuente.
+Remaining Memory: El nivel de memoria que se eleccionó
+
+2.	¿En qué punto se crea el archivo ejecutable?
+Respuesta: Cuando ejecutamos el TLINK sobre el archivo que nos devuelve el TASM 
+3.	¿Cuál es la interrupción utilizada para imprimir una cadena de caracteres?
+Respuesta:21H con la función 09H
+4.	¿Cuál es la interrupción para imprimir solamente un caracter?
+Respuesta: INT 21H con la función 02H
+5.	¿Qué registros entran en juego al ejecutar una interrupción de la serie 21h?
+Respuesta: El registro AH, DX 
